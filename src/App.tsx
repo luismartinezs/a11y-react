@@ -1,5 +1,6 @@
 import Meter from "./components/Meter";
 import ButtonShape from "./components/ButtonShape";
+import Maths from "./components/Maths";
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         at 50/100
       </Meter>
       <ButtonShape />
+      <Maths />
     </div>
   );
 }
