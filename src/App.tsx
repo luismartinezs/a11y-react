@@ -1,4 +1,5 @@
 import Meter from "./components/Meter";
+import ButtonShape from "./components/ButtonShape";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       >
         at 50/100
       </Meter>
+      <ButtonShape />
     </div>
   );
 }
